@@ -57,7 +57,7 @@ def rgb2gray(rgb):
     gray = 0.2989 * r + 0.5870 * g + 0.1140 * b
     return gray
 
-img = mpimg.imread('2.png')
+img = mpimg.imread('5.png')
 gray = rgb2gray(img)
 test = 1 - np.array(gray.reshape(-1, 28, 28, 1))
 
